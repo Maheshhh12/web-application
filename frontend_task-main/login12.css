@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+#Loginp{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20%;
+    border: 1px solid grey;
+    height: 7cm;
+    border-radius: 15px;
+    background-color: antiquewhite;
+}
+#Loginp h3{
+    margin: 20px;
+    font-size: 28px;
+
+    text-align: center;
+}
+#Loginp .login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: 20px 30px;
+}
+#Loginp .login span{
+    margin-right: 20px;
+    font-weight: 500;
+
+}
+#Loginp .login input{
+      margin-bottom: 20px;
+      color: rgb(29, 27, 24);
+      height: 0.75cm;
+      width: 7cm;
+
+}
+#Loginp button{
+    background-color: transparent;
+    color: rgb(86, 86, 130);
+    width: 3cm;
+    height: 30px;
+    margin-right: 60px;
+    border-radius: 5px;
+
+}
+#Loginp:hover button{
+    background-color: rgb(70, 112, 154);
+    color: azure;
+    box-shadow: 10px 10px 10px 10px rgb(169, 169, 177);
+}
